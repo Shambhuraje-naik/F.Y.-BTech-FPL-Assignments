@@ -4,7 +4,7 @@ void main()
 {
     printf("\t\t\tARITHMETIC OPERATORS\n");
 
-    int num1,num2,sum,diff,div,prod,rem,inc,dec;//num is the variable in which we will store the number given by user & others are arithmetic operations
+    int num1,num2,sum,diff,div,prod,rem,inc,dec;//num1 and num2 are the variable in which we will store the number given by user & others are arithmetic operations
    
     printf("Enter two numbers: \n");
     scanf("%d %d", &num1, &num2);
