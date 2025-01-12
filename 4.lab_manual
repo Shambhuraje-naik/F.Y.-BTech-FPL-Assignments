@@ -1,0 +1,20 @@
+/*Write a C program to read the age of a candidate and determine whether he is
+eligible to vote or not.*/
+#include<stdio.h>
+void main()
+{
+    printf("\t\t\t\tVOTING\n");
+    int num;
+
+    printf("Enter your age: \n");
+    scanf("%d", &num);
+
+    if(num>=18)
+    {
+        printf("!!YOU ARE ELIGIBLE TO VOTE!!\n", num);
+    }
+    else
+    {
+        printf("!!YOU ARE NOT ELIGIBLE TO VOTE!!\n", num);
+    }
+}
