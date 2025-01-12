@@ -1,0 +1,19 @@
+/*Write a C program to perform multiplication of an entered number of tasks.
+Accept an integer input from the user. Generate and display the multiplication
+table for the entered number up to 10.*/
+#include<stdio.h>
+void main()
+{
+    printf("\t\t\t\tTABLE\n");
+    int num, temp=0, prod;
+    printf("Enter a number whose multiplication table is to be printed: ");
+    scanf("%d", &num);
+    printf("The multiplication table of %d is- \n", num);
+
+ for(int i=1;i<=10;i++)
+    {
+        temp=temp+1;
+        prod=num*temp;
+        printf("%d\n", prod);
+    }
+}
